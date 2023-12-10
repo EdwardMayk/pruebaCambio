@@ -6,7 +6,7 @@
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
 
-## Description
+## Descripción
 
 Este proyecto es una aplicación de cambio de divisas creada con NestJS, un marco progresivo de Node.js para crear aplicaciones del lado del servidor eficientes, confiables y escalables.
 
@@ -17,20 +17,20 @@ Prerequisites
 - Node.js
 - npm
 ## Installing
-1.Clone the repository
+1.Clonar el repositorio
 ```bash
 git clone https://github.com/EdwardMayk/pruebaCambio.git
 ```
-2.Install the dependencies
+2.Instalar dependencias
 ```bash
 $ npm install
 ```
-3.Create a .env file in the root directory of the project and add your EXCHANGE_RATE_API_KEY:
+3.Cree un archivo .env en el directorio raíz del proyecto y agregue su EXCHANGE_RATE_API_KEY:
 ```bash
 EXCHANGE_RATE_API_KEY=<secret-key>
 ```
 
-## Running the app
+## Ejecutar la aplicación
 
 ```bash
 # development
@@ -40,7 +40,7 @@ $ npm run start
 $ npm run start:dev
 ```
 
-## Running the Tests
+## Ejecutar the Tests
 
 ```bash
 # unit tests
