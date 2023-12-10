@@ -16,7 +16,7 @@ Prerequisites
 
 - Node.js
 - npm
-## Installing
+## Instalar
 1.Clonar el repositorio
 ```bash
 git clone https://github.com/EdwardMayk/pruebaCambio.git
@@ -83,5 +83,5 @@ docker exec -it <container-id> curl http://localhost:3000/generate-token
 docker exec -it <container-id> curl http://localhost:3000/currency/tipo-cambio?monto='MONTOINGRESADO123'&monedaOrigen=USD&monedaDestino=EUR
 ```
 
-- Auto - [Edward Mayk](https://www.linkedin.com/in/edmayk/)
+- Autor - [Edward Mayk](https://www.linkedin.com/in/edmayk/)
 - Sitio Web - [https://edwardmayk.github.io/portfolio/](https://edwardmayk.github.io/portfolio/)
