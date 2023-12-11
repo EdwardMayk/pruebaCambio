@@ -25,6 +25,7 @@ git clone https://github.com/EdwardMayk/pruebaCambio.git
 ```bash
 $ npm install
 ```
+> [!IMPORTANT]
 3.Cree un archivo .env en el directorio raíz del proyecto y agregue su EXCHANGE_RATE_API_KEY:
 ```bash
 EXCHANGE_RATE_API_KEY=<secret-key>
