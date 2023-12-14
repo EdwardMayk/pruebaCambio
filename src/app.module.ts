@@ -27,6 +27,5 @@ import config from './config';
   ],
   controllers: [AppController],
   providers: [AppService, JwtStrategy],
-  exports: [PassportModule],
 })
 export class AppModule {}

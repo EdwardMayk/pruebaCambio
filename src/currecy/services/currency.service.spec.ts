@@ -1,6 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { CurrencyService } from './currency.service';
 import axios from 'axios';
+import { ConfigModule } from '@nestjs/config';
+import config from '../../config/index';
 
 jest.mock('axios');
 
@@ -13,6 +15,15 @@ describe('CurrencyService', () => {
     jest.spyOn(console, 'error').mockImplementation(() => {});
 
     const module: TestingModule = await Test.createTestingModule({
+      imports: [
+        ConfigModule,
+        ConfigModule.forRoot({
+          envFilePath: '.env',
+          load: [config],
+          isGlobal: true,
+        }),
+      ],
+
       providers: [CurrencyService],
     }).compile();
 

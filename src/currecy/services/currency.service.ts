@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import axios from 'axios';
 import { ExchangeRate } from '../entities/exchange-rate.entity';
-import config from 'src/config';
+import config from '../../config/index';
 import { ConfigType } from '@nestjs/config';
 
 @Injectable()

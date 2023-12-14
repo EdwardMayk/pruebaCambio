@@ -13,9 +13,9 @@ describe('JwtStrategy', () => {
   });
 
   it('should validate and return user', async () => {
-    const payload = { sub: 'user123', username: 'testuser' };
+    const payload = { sub: 'user123' };
     const user = await jwtStrategy.validate(payload);
 
-    expect(user).toEqual({ userId: 'user123', username: 'testuser' });
+    expect(user).toEqual({ userId: 'user123' });
   });
 });
